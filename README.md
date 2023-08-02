@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# En este componente he empezado a usar el hook de react useContext un hook que nos permite leer y suscribir un contexto o un dato desde nuestro componente, con importarlo ya nos funcionará
+### ![image](https://github.com/Silkaleex/useContext/assets/82760991/04f83237-2d18-43af-b900-86e5157a45a9)
+### ![image](https://github.com/Silkaleex/useContext/assets/82760991/25ecb016-2b35-41c5-a77c-92afdbc2d7cd)
+### ![image](https://github.com/Silkaleex/useContext/assets/82760991/29ab4551-3831-4cb9-8548-c4a03b2fd04d)
+## En el componente appRouting es donde configuro las rutas donde iremos poniendo los datos, también creo un navbar de navegación para acceder a un componente o a otro.
+## En las líneas 36 a la 57 es una condición para que cuando cerremos sección se borre nuestros datos de usuario, lo comprobaremos en el componente de Contacto que se queda vacia
+### ![image](https://github.com/Silkaleex/useContext/assets/82760991/5ed89e4a-c0a9-4eb9-bd4e-53164d001c8b)
+## Aqui tengo mi pruebaContent que es donde comparto la informacion a los otros componentes por que es reutilizable.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### ![image](https://github.com/Silkaleex/useContext/assets/82760991/567eea7f-8d04-4b23-abd7-ebe77400cd0c)
+### ![image](https://github.com/Silkaleex/useContext/assets/82760991/f398120a-4ec9-4f8d-a2c1-b83ebfec3d9e)
+## Inicio component es donde muestro los datos de usuario y web , estos datos los cojo de login cuando me registro
+### ![image](https://github.com/Silkaleex/useContext/assets/82760991/1e55f6f9-ad4b-45bc-9ca0-1411ef2c3302)
+### ![image](https://github.com/Silkaleex/useContext/assets/82760991/f6f3a008-4d18-4737-9d44-5bc64503c4b8)
+## Aquí cree un formulario para que el usuario pueda registrar su datos y pueda acceder
+## Cojo los datos de name y los importo a la funcion guardar datos en la variable de usuario, se quedan cguardados en la memoria de la aplicacion y se quedan guardados una vez rellenemos y le ddemos al input submit de enviar
+## acerca de y articulos los deje vacios, este componente lo deje de ejemplo para ver como funcionaba useContext, que nos puede servir para sustituir los props en react.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# ToDo
+## Darle mas funciones a articulos y acerca de
+## Mejorar el diseño
+## Guardar los usuarios en una base de datos
+## Crear rutas de Post y get para que un usuario pueda registrarse o cerrar sesion
